@@ -1,16 +1,15 @@
-out vec2 vN;
+out vec2 vectorNormal;
 
 void main() {
+    vec3 eye = normalize( vec3(uTDMat.worldCam * vec4(P, 1.0)));
+    vec3 normal = normalize( uTDMat.worldCamForNormals * N );
+    vec3 rreflect = reflect( eye, normal );
 
-    vec3 e = normalize( vec3(uTDMat.worldCam * vec4(P, 1.0)));
-    vec3 n = normalize( uTDMat.worldCamForNormals * N );
-    vec3 r = reflect( e, n );
-
-    float m = 2.0 * sqrt(
-        pow( r.x, 2.0 ) +
-        pow( r.y, 2.0 ) +
-        pow( r.z + 1.0, 2.0 )
+    float matCapFormula = 2.0 * sqrt(
+        pow( rreflect.x, 2.0 ) +
+        pow( rreflect.y, 2.0 ) +
+        pow( rreflect.z + 1.0, 2.0 )
     );
-    vN = r.xy / m + 0.5;
+    vectorNormal = rreflect.xy / matCapFormula + 0.5;
     gl_Position = TDWorldToProj(TDDeform(P));
 }
