@@ -1,5 +1,3 @@
-#extension GL_EXT_gpu_shader4 : enable
-
 uniform sampler2D uPos;
 uniform sampler2D uOldPos;
 uniform mat4 uMat;
