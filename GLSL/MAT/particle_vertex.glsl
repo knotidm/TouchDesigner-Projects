@@ -1,11 +1,10 @@
 uniform sampler2D uPos;
 uniform sampler2D uOldPos;
-uniform mat4 uMat;
-uniform float res = 1024;
+uniform float res;
 varying float life;
 
 void main() {
-	float id = gl_VertexID + (gl_InstanceID * 512);
+	float id = gl_VertexID + (gl_InstanceID * res);
 	float off = mod(id, 2);
 	id = floor(id / 2);
     float u = mod(id, res) / res;

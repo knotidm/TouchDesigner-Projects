@@ -1,5 +1,3 @@
-uniform sampler2D sInput1;
-uniform sampler2D sInput2;
 uniform float uTime;
 uniform vec3 Wind;
 uniform vec3 Turb;
@@ -38,7 +36,7 @@ float fbm (vec3 p)
 }
 
 void main() {
-	vec2 vTexcoord = vUV.st;
+	vec2 vTexcoord = vUV.xy;
 	vec4 pos = texture(sTD2DInputs[0], vTexcoord);
 	vec2 uv = vTexcoord * 0.00942;
 	vec3 ut = vec3(uv, uTime * 0.4172);

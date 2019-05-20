@@ -1,76 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62bd7c83-3cca-4427-b06b-7b16098e210c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAT/reactiveVertexMatCapDeferredLightning_vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/MAT/reactiveVertexMatCapDeferredLightning_vertex.glsl" afterDir="false" />
-    </list>
+    <list default="true" id="62bd7c83-3cca-4427-b06b-7b16098e210c" name="Default" comment="Liebknecht demo visuals" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-730656660">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="glsl" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="GLSL shader file" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="glsl" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="GLSL shader file" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="GLSL" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MAT/matCapDeferredLightning_vertex.glsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MAT/reactiveVertexMatCapDeferredLightning_vertex.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="196">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MAT/matCapDeferredLightning_fragment.glsl">
+        <entry file="file://$PROJECT_DIR$/MAT/reactiveVertex_vertex.glsl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MAT/particle_vertex.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOP/particle_processor.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MAT/particle_fragment.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,7 +63,46 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MAT/matCapDeferredLightning_fragment.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOP/volumetric_lightning.glsl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TOP/deferred_lightning_combine_fragment.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>worldSpacePos</find>
+      <find>position</find>
+      <find>color</find>
+      <find>cameraIndex</find>
+      <find>oFragColor</find>
+      <find>uTDMat</find>
+      <find>outCoords</find>
+      <find>res</find>
+      <find>uMat</find>
+      <find>life</find>
+      <find>pos</find>
+      <find>m</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -93,9 +111,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MAT/matCapDeferredLightning_fragment.glsl" />
         <option value="$PROJECT_DIR$/MAT/matCapDeferredLightning_vertex.glsl" />
         <option value="$PROJECT_DIR$/MAT/reactiveVertexMatCap_vertex.glsl" />
+        <option value="$PROJECT_DIR$/MAT/matCapDeferredLightning_fragment.glsl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/touchtmp/dat_phong1GLSLPixel__td_11212_46.glsl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/touchtmp/dat_phong1GLSLVertex__td_11212_45.glsl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/touchtmp/dat_frag_combine__td_9796_43.py" />
+        <option value="$PROJECT_DIR$/TOP/deferred_lightning_combine_fragment.glsl" />
+        <option value="$USER_HOME$/AppData/Local/Temp/touchtmp/dat_phong1GLSLVertex__td_9796_44.glsl" />
+        <option value="$PROJECT_DIR$/MAT/particle_vertex.glsl" />
+        <option value="$PROJECT_DIR$/MAT/particle_fragment.glsl" />
+        <option value="$PROJECT_DIR$/TOP/particle_processor.glsl" />
         <option value="$PROJECT_DIR$/MAT/reactiveVertexMatCapDeferredLightning_vertex.glsl" />
       </list>
     </option>
@@ -114,7 +140,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-76" />
     <option name="y" value="22" />
     <option name="width" value="1372" />
@@ -142,8 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +202,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -215,7 +242,7 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,6 +255,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -236,7 +264,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -247,11 +276,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,6 +298,14 @@
       <updated>1510699056413</updated>
       <workItem from="1510699079390" duration="938000" />
     </task>
+    <task id="LOCAL-00001" summary="Liebknecht demo visuals">
+      <created>1558374794394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558374794394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -285,9 +322,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.26823708" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.25607902" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -302,11 +338,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50303954" side_tool="true" weight="0.25737706" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.32218844" side_tool="true" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32786885" />
       <window_info anchor="bottom" id="TeamCity" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.67781156" visible="true" weight="0.32569557" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,13 +356,55 @@
       <window_info anchor="right" id="Database" order="10" weight="0.32978722" />
       <window_info anchor="right" x="2012" y="92" width="1176" height="554" id="Documentation" order="11" type="FLOATING" />
       <window_info anchor="right" id="Data View" order="12" />
+      <window_info anchor="right" id="Maven" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Liebknecht demo visuals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Liebknecht demo visuals" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MAT/matCap_vertex.glsl">
@@ -342,6 +420,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/touchtmp/dat_phong1GLSLPixel__td_11212_46.glsl" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/touchtmp/dat_phong1GLSLVertex__td_11212_45.glsl" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/touchtmp/dat_frag_combine__td_9796_43.py" />
+    <entry file="file://$PROJECT_DIR$/TOP/tone_mapping_pass.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/touchtmp/dat_phong1GLSLVertex__td_9796_44.glsl" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/touchtmp/dat_phong1GLSLVertex__td_1540_47.glsl" />
+    <entry file="file://$PROJECT_DIR$/MAT/reactiveVertexMatCapDeferredLightning_vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAT/reactiveVertex_vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAT/particle_vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOP/particle_processor.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAT/particle_fragment.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MAT/reactiveVertexMatCap_vertex.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -351,15 +468,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MAT/matCapDeferredLightning_fragment.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MAT/reactiveVertexMatCapDeferredLightning_vertex.glsl">
+    <entry file="file://$PROJECT_DIR$/TOP/volumetric_lightning.glsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TOP/deferred_lightning_combine_fragment.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="378">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>
