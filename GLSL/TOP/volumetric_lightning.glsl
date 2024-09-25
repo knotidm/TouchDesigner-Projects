@@ -18,7 +18,7 @@ void main()
 	for(int i=0; i < NUM_SAMPLES ; i++)
 	{
 			textCoo -= deltaTextCoord;
-			vec4 textureSample = texture2D(sInput1, textCoo);
+			vec4 textureSample = texture(sInput1, textCoo);
 			textureSample *= illuminationDecay * weight;
 			fragColor += textureSample;
 			illuminationDecay *= decay;

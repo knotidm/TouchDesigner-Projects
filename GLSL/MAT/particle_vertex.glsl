@@ -1,7 +1,7 @@
 uniform sampler2D uPos;
 uniform sampler2D uOldPos;
 uniform float res;
-varying float life;
+out float life;
 
 void main() {
 	float id = gl_VertexID + (gl_InstanceID * res);
@@ -12,8 +12,8 @@ void main() {
 	vec2 vTexOffset = vec2(u, v);	
 	vec4 pos;
 	float life0, life1;
-	vec4 pos0 = texture2D(uPos, vTexOffset);
-	vec4 pos1 = texture2D(uOldPos, vTexOffset);
+	vec4 pos0 = texture(uPos, vTexOffset);
+	vec4 pos1 = texture(uOldPos, vTexOffset);
 	
 	if (off == 0) {
 		pos = pos0;

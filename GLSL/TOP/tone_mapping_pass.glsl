@@ -20,7 +20,7 @@ vec4 radial(sampler2D tex, vec2 texcoord, int samples, float startScale, float s
     for(int i = 0; i < samples; i++)
     {
         vec2 uv = ((texcoord - 0.5) * scale) + 0.5;
-        vec4 s = texture2D(tex, uv);
+        vec4 s = texture(tex, uv);
         c += s;
         scale *= scaleMul;
     }
@@ -32,8 +32,8 @@ vec4 radial(sampler2D tex, vec2 texcoord, int samples, float startScale, float s
 void main()
 {
     // sum original and blurred image
-    vec4 scene = texture2D(sTD2DInputs[0], vUV.st);
-    vec4 blurred = texture2D(sTD2DInputs[1], vUV.st);
+    vec4 scene = texture(sTD2DInputs[0], vUV.st);
+    vec4 blurred = texture(sTD2DInputs[1], vUV.st);
 	vec4 effect = radial(sTD2DInputs[1], vUV.st, 30, 1.0, 0.95);
     vec4 mixScene = mix(scene, blurred, uBlurAmount);
 

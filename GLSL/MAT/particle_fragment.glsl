@@ -1,6 +1,7 @@
 uniform sampler2D uLookup;
-varying float life;
+out float life;
+out vec4 fragColor;
 
 void main() {
-	gl_FragColor = texture(uLookup, vec2(life, 0.5));
+	fragColor = texture(uLookup, vec2(life, 0.5));
 }

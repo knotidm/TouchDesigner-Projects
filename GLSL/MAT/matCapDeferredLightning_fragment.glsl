@@ -17,7 +17,7 @@ layout (location = 3) out vec4 o_uvs;
 
 void main()
 {
-    vec3 base = texture2D( tMatCap, vectorNormal ).rgb;
+    vec3 base = texture(tMatCap, vectorNormal).rgb;
 	o_positions = vertexIn.position;
 	o_normals = vec4(vertexIn.normal, 1.0);
 	o_colors = vec4( base, 1.0 );
