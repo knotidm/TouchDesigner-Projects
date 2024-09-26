@@ -1,4 +1,3 @@
-out vec4 fragColor;
 uniform sampler2D sCubeTex0;
 uniform sampler2D sCubeTex1;
 uniform sampler2D sCubeTex2;
@@ -8,6 +7,8 @@ uniform sampler2D sCubeTex5;
 
 in vec3 vWorldNormal;
 in vec3 vWorldIncident;
+
+out vec4 fragColor;
 
 vec4 fakeCubeMapLookup(vec3 vec)
 {

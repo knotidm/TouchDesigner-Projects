@@ -20,6 +20,6 @@ void main() {
     vec4 envMapColor = texture(sEnvMap, envMapCoord.stp);
     envMapColor.rgb *= uEnvMapColor;
 
-    vec3 base = texture2D( tMatCap, vN ).rgb;
+    vec3 base = texture( tMatCap, vN ).rgb;
     fragColor = vec4( base, 1.0 ) + envMapColor;
 }
