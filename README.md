@@ -1,4 +1,4 @@
-There are my TD project samples and TOX files included some GLSL shaders related features and the combination between them:
+Here are my TouchDesigner project samples and TOX files that included some GLSL shaders-related features and the combination between them:
 
 - MatCap
 - ReactiveVertex
