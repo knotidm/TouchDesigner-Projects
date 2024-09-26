@@ -6,5 +6,5 @@ There are my TD project samples and TOX files included some GLSL shaders related
 - DeferredLighting
 - ToneMap
 - HDR
+- particles with forces from .bhclassic files
 - VolumetricLighting (not working for now)
-- .bhclassic format based particles (not working for now)
